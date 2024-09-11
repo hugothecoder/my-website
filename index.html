@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: white;
+            color: black;
+            text-align: left;
+            padding: 10px;
+        }
+        nav {
+            background-color: white;
+            padding: 11px;
+            text-align: left;
+            width: 200px;
+        }
+        nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 11px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+            gap: 20px;
+            width: 70%;
+            margin: 20px auto;
+        }
+        .post {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 57px;
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post p {
+            color: #555;
+        }
+        .post .meta {
+            font-size: 14px;
+            color: #777;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hugo's Blog</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- Blog Post 1 -->
+        <div class="post">
+            <h3>Hello world</h3>
+            <p class="meta">Posted on september 5 </p>
+            <p>I created my first website today using only html with nothing on the backend. Very interesting how so much of the web started with this. Makes me wonder how much inovation has changed since then.</p>
+        </div>
+        <!-- Blog Post 2 -->
+        <div class="post">
+            <h3>Day 2</h3>
+            <p class="meta">Posted on september 6 </p>
+            <p>The help of chatgpt is somewhat of a double edge sword. Its helping me but I feel I need to understand more of what is going on. I also want to integrate more of a swiss style to my blog. Simple but effective. My IBM course is going great so far. Signing off for now.</p>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="post">
+            <h3>Day 3</h3>
+            <p class="meta">Posted on september 7 </p>
+            <p>Learning is going decent just a lot of new words that I have to learn. Im very excited to see where this takes me. Going to start including some pictures to bring some more life to my entries so that will be exciting. signing off. </p>
+        </div>
+         <!-- Blog Post 4 -->
+         <div class="post">
+            <h3>Day 4</h3>
+            <p class="meta">Posted on september 8 </p>
+            <p>Day 4! Didnt get to much time to work on my website today but pulling more ideas of things i can do maybe adding a habit tracker that can show if i completed all of my task for the day working out, reading, ect. Classes are tougher than expected but im going to get through them. I got this. Logging off!</p>
+        </div>
+         <!-- Blog Post 5 -->
+         <div class="post">
+            <h3>Day 5</h3>
+            <p class="meta">Posted on september 9 </p>
+            <p>Passed a quiz today. Expanding on the idea of a habit tracker i was thinking of having a screen at home that could show how many of the list had been completed and maybe have to finish a score of 80% Interesting thoughts. Signing off.</p>
+        </div>
+         <!-- Blog Post 6 -->
+         <div class="post">
+            <h3>Day 6</h3>
+            <p class="meta">Posted on september 10 </p>
+            <p>Day 6. Im looking to take my website live tomorrow so thats exciting! Im thinking also of changing my blog into more than just tech and add self improvment/lifestyle into it. Logging off!</p>
+        </div>
+
+
+        <!-- More blog posts can go here -->
+    </div>
+
+</body>
+</html>
